@@ -1,9 +1,9 @@
-(var Page = (function() {
+var Page = (function() {
 
     // declare the view model used within the page
     function ViewModel() {
         var self = this;
-        self.arrivals = ko.observableArray([]);
+        //self.arrivals = ko.observableArray([]);
     }
 
     // expose the view model through the Page module
